@@ -1,3 +1,3 @@
-# input/data_work
+# data/work/
 
 Interim and temporary data files.
