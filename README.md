@@ -37,6 +37,7 @@ project_name/
 │   ├── work/              # intermediate data
 │   └── final/             # processed data for final analysis tasks
 ├── code/
+│   ├── templates/         # code templates shared across projects. Visualization styles etc.
 │   ├── work/
 │   │   ├── person1/       # a directory for each person or task
 │   │   ├── person2/        
@@ -58,6 +59,7 @@ project_name/
 * **[documentation/]:** Project meta documentation. Links to all relevant planning papers, interim notes, google drive folders, etc.
 * **[input/]:** Input data. Either a whole dataset or if that is impractical, a link pointing to the data source (likely another repository). *[data_raw/]* subdirectory should have immutable original input data and/or references to the repositories where it can be retrieved from. *[data_processed/]* holds data that has been processed to analysis ready format and should include `README.md` pointing to the code that is used to produce the data. *[data_work/]* is a development directory for work-in-progress datasets, exchanging data between coding tasks, etc. Ideally, all datasets should be producible by scripts from the raw data.
 * **[code/]:** Data processing code. Finished code used for publication should be moved to *[final/]* subdirectory. Organization of the development directory *[work/]* can vary and the breakdown by person or task is just a suggestion. All directories, but especially *[final/]* should include a `README.md` clearly documenting what each script does.
+    * `[code/templates/]` has templates for code shared across projects, such as visualization styles.
 * **[output/]:** Both figures and publication texts/files. Divided to work and final subdirectories.
 
 ## Articles on data science project git repo organization
